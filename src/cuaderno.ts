@@ -2,7 +2,7 @@ const product = "Cuaderno";
 const unitPrice = 25;
 const quantity = 10;
 const available = true;
-const total = unitPrice * quantity;
+const totalPrice = unitPrice * quantity;
 
-console.log(`${product}: ${quantity} x ${unitPrice} = ${total}`);
+console.log(`${product}: ${quantity} x ${unitPrice} = ${totalPrice}`);
 console.log(`Disponible: ${available}`)
