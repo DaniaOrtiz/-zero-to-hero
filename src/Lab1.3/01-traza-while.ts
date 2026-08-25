@@ -1,11 +1,10 @@
 let index = 1;
-let total = 0;
+let totals = 0;
 
 while (index <= 4) {
-  total += index;
+  totals += index;
   console.log(`index=${index}, total=${total}`);
   index += 1;
 }
-
 console.log(`final=${total}`);
 
